@@ -4,8 +4,9 @@
 Desarrollo de una API REST para administrar libros de una biblioteca personal.
 
 ## 2. Descripción del problema
-Este proyecto permite llevar un control de los libros de una biblioteca personal. Se pueden registrar, consultar, 
-actualizar y eliminar libros, guardando toda la información en una base de datos PostgreSQL.
+Este proyecto permite llevar un control de los libros de una biblioteca personal. Se pueden 
+registrar, consultar, actualizar y eliminar libros, guardando toda la información en una base 
+de datos PostgreSQL.
 
 ## 3. Tecnologías utilizadas
 - Java 17
@@ -27,8 +28,8 @@ actualizar y eliminar libros, guardando toda la información en una base de dato
 ## 5. Configuración de la base de datos
 Se utiliza PostgreSQL con una base de datos llamada `biblioteca_personal` y una tabla llamada `libro`.
 
-La conexión se configura en `application.properties`, utilizando el puerto 5432 y el usuario postgres. La contraseña 
-se proporciona mediante la variable de entorno `DB_PASSWORD`.
+La conexión se configura en `application.properties`, utilizando el puerto 5432 y el usuario postgres. 
+La contraseña se proporciona mediante la variable de entorno `DB_PASSWORD`.
 
 ## 6. Endpoints de la API
 
@@ -59,3 +60,49 @@ se proporciona mediante la variable de entorno `DB_PASSWORD`.
 **Curso:** Programación II
 
 **Actividad:** Semana 13 – Biblioteca Personal API
+
+Durante esta actividad aprendí a crear una API REST y conectarla con una base de datos PostgreSQL. 
+También aprendí a registrar, consultar, actualizar y eliminar libros utilizando Postman. Esta tarea 
+me ayudó a comprender mejor cómo funcionan estas herramientas y a fortalecer mis conocimientos de 
+programación.
+
+-----------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------SECCION DOS---------------------------------------------------------------------------------------- 
+
+## Interfaz web - Semana 14
+
+Se agregó una interfaz web al sistema Biblioteca Personal,
+permitiendo administrar libros de forma sencilla.
+
+### Tecnologías utilizadas
+- HTML
+- CSS
+- JavaScript
+- Spring Boot
+- PostgreSQL
+
+### Funcionalidades
+- Consultar libros registrados.
+- Registrar nuevos libros.
+- Eliminar libros con confirmación.
+- Validar los datos del formulario.
+- Mostrar mensajes de éxito o error.
+
+### Endpoints utilizados
+- GET /api/libros
+- POST /api/libros
+- DELETE /api/libros/{id}
+
+### Ejecución
+1. Iniciar PostgreSQL.
+2. Abrir el proyecto en IntelliJ IDEA.
+3. Configurar la variable DB_PASSWORD.
+4. Ejecutar Semana13BibliotecaApiApplication.
+5. Abrir http://localhost:8080
+
+### Datos del estudiante
+**Nombre:** Gerson Ezequiel López Enríquez
+
+**Carné:** 9941-25-22144
+
+**Curso:** Programación II
